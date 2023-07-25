@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'RobotoMedium';
+    src:
+            url('fonts/Roboto-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body, html{
+    background-color: #212121;
+    padding: 0;
+    margin: 0;
+    font-family: RobotoMedium, serif;
+    color: #C5C5C5;
+}
+button{
+    background-color: #161616;
+    border: none;
+    border-radius: 8px;
+    color: #C5C5C5;
+    font-family: RobotoMedium, serif;
+    font-size: 14px;
+    padding: 8px 12px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    column-gap: 10px;
+    align-items: center;
+    width: fit-content;
+}
+button:hover{
+    background-color: #1B1B1B;
+}
+.header{
+    background-color: #1E1E1E;
+    display: grid;
+    grid-template-columns: repeat(2,max-content);
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.logo_wrapper{
+    display: grid;
+    padding: 10px 20px;
+    grid-template-columns: repeat(2,max-content);
+    column-gap: 10px;
+    align-items: center;
+}
+.logo{
+    font-size: 16px;
+}
+.status{
+    background-color: #161616;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 8px 12px;
+}
+.navbar_wrapper{
+    display: grid;
+    padding: 10px 20px;
+    grid-template-columns: repeat(4,max-content);
+    column-gap: 20px;
+    align-items: center;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+    fill: #C5C5C5;
+}
+.current_wrapper{
+    align-items: center;
+    padding: 20px 20px;
+    column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+}
+.current{
+
+}
+.title{
+    font-size: 24px;
+}
+.arrow{
+    width: 24px;
+    height: 24px;
+    fill: #C5C5C5;
+}
+.current_song_wrapper{
+    display: grid;
+    background-color: #161616;
+    border-radius: 8px;
+    padding: 20px;
+    row-gap: 20px;
+}
+.container {
+    flex: 1 0 auto;
+}
+.social_wrapper{
+    background-color: #1E1E1E;
+    display: grid;
+    grid-template-columns: repeat(7,max-content);
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    column-gap: 24px;
+}
+.social{
+    width: 24px;
+    height: 24px;
+    fill: #565656;
+}
+.social:hover{
+    fill: #C5C5C5;
+}
+.svg-icon{
+    outline: none;
+}
